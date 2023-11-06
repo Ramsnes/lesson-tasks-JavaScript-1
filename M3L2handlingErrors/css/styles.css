@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #ebebeb;
+}
+
+.container {
+  max-width: 1000px;
+  background: white;
+  margin: 0 auto;
+}
+
+.message {
+  padding: 1rem;
+  border: 1px solid grey;
+  color: grey;
+}
+
+.success {
+  color: green;
+  border-color: green;
+  background: rgba(0, 255, 0, 0.1);
+}
+
+.error {
+  color: red;
+  border-color: red;
+  background: rgba(255, 0, 0, 0.1);
+}
+
+.warning {
+  color: orange;
+  border-color: orange;
+  background: rgba(100, 0, 0, 0.1);
+}

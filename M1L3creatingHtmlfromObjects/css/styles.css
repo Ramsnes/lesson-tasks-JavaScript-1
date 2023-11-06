@@ -1,0 +1,14 @@
+body {
+  background: #ebebeb;
+}
+
+.container {
+  display: flex;
+}
+
+.product {
+  background: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}

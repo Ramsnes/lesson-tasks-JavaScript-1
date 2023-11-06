@@ -1,0 +1,14 @@
+body {
+  background: #ebebeb;
+}
+
+.game-container {
+  display: flex;
+}
+
+.game {
+  background: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
