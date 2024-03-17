@@ -18,7 +18,6 @@ for (let i = 0; i < headings.length; i++) {
 //
 // Question 3
 // Set the background colour of the second h4 element to red.
-// Question 3
 headings[1].style.backgroundColor = "red";
 // or
 /*
@@ -59,9 +58,7 @@ for (let i = 0; i < contentParagraphs.length; i++) {
 // Question 8
 // Select the ul element on the page by its id and add a new list item to the beginning of the list.
 const list = document.querySelector("#services");
-list.innerHTML = `<li>New item</li>`;
-//or
-// list.innerHTML = "<li>Newer item</li>" + list.innerHTML;
+list.innerHTML = "<li>Newer item</li>" + list.innerHTML;
 
 // Question 9
 // Programmatically remove the class from the ul element.

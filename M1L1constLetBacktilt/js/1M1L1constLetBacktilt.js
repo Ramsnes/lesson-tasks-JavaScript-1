@@ -1,5 +1,6 @@
 // JavaScript 1 - Module 1
 // Lesson Task 1 Questions
+// https://github.com/NoroffFEU/lesson-task-js1-module1-lesson2?tab=readme-ov-file#javascript-1---module-1
 // Question 1
 const instrument = "guitar";
 
