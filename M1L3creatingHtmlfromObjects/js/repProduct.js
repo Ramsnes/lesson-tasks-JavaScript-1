@@ -15,9 +15,6 @@ if (!price) {
   price = 666;
 }
 
-// Change color if onSale
-let color = onSale ? "red" : "green"; // true = red, else = green
-
 // Change innerText if onSale
 if (onSale) {
   onSale = "On sale";
@@ -25,6 +22,7 @@ if (onSale) {
   onSale = "Regular price";
 }
 
+let color = onSale ? "red" : "green"; // true = red, else = green
 let decoration = onSale ? "underline" : "none"; // true = underline, else = none
 
 container.innerHTML = `<div class="product">

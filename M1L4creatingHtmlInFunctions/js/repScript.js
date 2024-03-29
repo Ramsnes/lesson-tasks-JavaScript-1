@@ -21,9 +21,7 @@ const addNumbers = (num1, num2, num3) => {
 const total = addNumbers(5, 10, 25);
 
 let totalContainer = document.querySelector(".total");
-totalContainer.innerHTML = `<div> 
-    <h1>Total result: ${total}</h1>
-</div>`;
+totalContainer.innerHTML = total;
 
 // Q4
 const createGreeting = (name) => {
@@ -62,10 +60,10 @@ const games = [
   },
 ];
 
-const createGames = (game) => {
+const createGames = (gamesList) => {
   let html = "";
 
-  for (let i = 0; i < game.length; i++) {
+  for (let i = 0; i < gamesList.length; i++) {
     let name = games[i].name;
     let released = games[i].released;
 

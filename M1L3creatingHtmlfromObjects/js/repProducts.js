@@ -17,7 +17,6 @@ const products = [
 
 // Loop through array
 // Display each object using HTML
-
 let container = document.querySelector(".container");
 
 let html = "";

@@ -45,14 +45,9 @@ async function fetchTeams() {
       const city = teams[i].location;
 
       // we are checking for small "c" and big "C". Continue means "skip"
-      if (teamName.startsWith("c") || teamName.startsWith("C")) {
+      if (teamName.toLowerCase().startsWith("c")) {
         continue;
       }
-
-      // instead of checking for both small "c" and big "C" we can make the teamName lowercase and just check for "c"
-      // if (teamName.toLowerCase().startsWith("c")) {
-      //     continue;
-      // }
 
       resultsContainer.innerHTML += `<div class="card">
                                             <h4>${teamName}</h4>

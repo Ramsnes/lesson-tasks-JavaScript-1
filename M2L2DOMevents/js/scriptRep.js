@@ -7,6 +7,7 @@ button.onclick = () => {
   button.disabled = true;
   button.style.backgroundColor = "Green";
 
+  // Every interval(sec), this happens
   const intervalId = setInterval(function () {
     counter++;
     countContainer.innerHTML = counter;

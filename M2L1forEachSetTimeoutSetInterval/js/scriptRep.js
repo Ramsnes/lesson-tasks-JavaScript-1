@@ -21,11 +21,7 @@ for (let i = 0; i < prizes.length; i++) {
   console.log(`Prize ${i + 1}: ${prizes[i]}`);
 }
 
-// Option 1
-prizes.forEach(function (item, index) {
-  console.log(`Prize ${index + 1}: ${item}`);
-});
-// Option 2
+// Shorthand and implicit call
 prizes.forEach((item, index) => console.log(`Prize ${index + 1}: ${item}`));
 
 // Q3

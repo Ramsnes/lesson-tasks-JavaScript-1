@@ -5,15 +5,7 @@
 
 const API_URL =
   "https://mashape-community-urban-dictionary.p.rapidapi.com/define?term=wat";
-/*
-async function callUrbanDictionary() {
-  const response = await fetch(API_URL);
-  const results = await response.json();
-  console.log(results);
-}*/
 
-// teachers answer:
-// API_URL already decleared over above
 const options = {
   headers: {
     "x-rapidapi-key": "f1f6bf4f35msh6bce51834ab65fep1142d8jsne932f1fff042",
