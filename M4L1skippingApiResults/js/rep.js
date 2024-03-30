@@ -15,12 +15,12 @@ const fetchTeams = async () => {
 
     // Loop through teams and set rules and build html
     for (let i = 0; i < teams.length; i++) {
+      const teamName = teams[i].teamName;
+      const city = teams[i].location;
+
       if (i === 15) {
         break;
       }
-
-      const teamName = teams[i].teamName;
-      const city = teams[i].location;
 
       if (teamName.toLowerCase().startsWith("c")) {
         continue;
