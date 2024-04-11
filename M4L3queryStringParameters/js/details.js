@@ -1,6 +1,6 @@
 // get the query string
 const queryString = document.location.search;
-
+// create an object that will allows us to access all the query string parameters
 const params = new URLSearchParams(queryString);
 
 // get the id from the query string
@@ -13,8 +13,9 @@ if (id === null) {
 
 // create the url by addin the id to the end
 const url = "https://api.noroff.dev/api/v1/books/" + id;
-
+// To display unique book
 const idContainer = document.querySelector(".id");
+// To display unique detailed info of unique book
 const detailContainer = document.querySelector(".details");
 
 // display the id in a different element to the rest of the properties
