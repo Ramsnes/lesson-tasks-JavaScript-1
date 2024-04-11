@@ -6,7 +6,7 @@ const message = document.querySelector("#message");
 const button = document.querySelector("button");
 
 function checkIfButtonIsDisabled() {
-  // if all inputs pass validation enable the button
+  // if all inputs pass validation, enable the button
   if (
     checkLength(firstName.value, 1) &&
     checkLength(lastName.value, 4) &&
@@ -22,6 +22,7 @@ function checkIfButtonIsDisabled() {
 }
 
 // call the same function for each input's keyup event
+// keyup = when key is released
 firstName.addEventListener("keyup", checkIfButtonIsDisabled);
 lastName.addEventListener("keyup", checkIfButtonIsDisabled);
 email.addEventListener("keyup", checkIfButtonIsDisabled);
